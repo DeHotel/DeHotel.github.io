@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Roberto Fernández" />
+    <meta name="description" content="Desafio CSS" />
+    <meta name="robots" content="indexfollow" />
+
+    <link rel="icon" href="./assets/images/icons/iconoPR.png" type="image/png" />
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Propiedades Roberto</title>
+  </head>
+
+  <body class="body">
+    <header>
+      <div id="encabezado">
+        <h1>Propiedades <strong>Roberto</strong></h1>
+        <h2>haz realidad tu proyecto de vida</h2>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div id="divTabla">
+          <table>
+            <tbody>
+              <tr>
+                <td class="imagenTabla">
+                  <a href="#openModal1">
+                  <img
+                    src="./assets/images/casa1.jpeg"
+                    alt="primera imagen"
+                    width="300px"
+                  />
+                  </a>
+                </td>
+                <td>
+                  <p class="nombreImagen">Casa Mediterránea</p>
+                  <p class="ciudad">Olmué</p>
+                  <p class="precio">UF 12.500</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="imagenTabla">
+                  <a href="#openModal2">
+                    <img
+                    src="./assets/images/casa2.jpeg"
+                    alt="segunda imagen"
+                    width="300px"
+                  />
+                  </a>
+                </td>
+                <td>
+                  <p class="nombreImagen">Casa Mediterránea</p>
+                  <p class="ciudad">Rancagua</p>
+                  <p class="precio">UF 15.000</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="imagenTabla">
+                  <a href="#openModal3">
+                    <img
+                    src="./assets/images/casa3.jpeg"
+                    alt="tercera imagen"
+                    width="300px"
+                  />
+                  </a>
+                </td>
+                <td class="rowTexto">
+                  <p class="nombreImagen">Casa Colonial</p>
+                  <p class="ciudad">Coquimbo</p>
+                  <p class="precio">UF 22.000</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Modales -->
+      <section>
+        <div id="openModal1" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Casa Mediterránea</h2>
+            <h3>Olmué</h3>
+            <img src="./assets/images/casa1.jpeg" alt="Imagen Casa Olmué" />
+            <ul class="modalDialog-lu">
+              <li>5 Dormitorios</li>
+              <li>4 Baños</li>
+              <li>3 Estacionamientos</li>
+            </ul>
+          </div>
+        </div>                  
+        <div id="openModal2" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Casa Mediterránea</h2>
+            <h3>Rancagua</h3>
+            <img src="./assets/images/casa2.jpeg" alt="Imagen Casa Rancagua" />
+            <ul class="modalDialog-lu">
+              <li>4 Dormitorios</li>
+              <li>4 Baños</li>
+              <li>2 Estacionamientos</li>
+            </ul>
+          </div>
+        </div>                  
+        <div id="openModal3" class="modalDialog">
+          <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Casa Colonial</h2>
+            <h3>Coquimbo</h3>
+            <img src="./assets/images/casa3.jpeg" alt="Imagen Casa Coquimbo" />
+            <ul class="modalDialog-lu">
+              <li>7 Dormitorios</li>
+              <li>5 Baños</li>
+              <li>6 Estacionamientos</li>
+            </ul>
+          </div>
+        </div>                  
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>&#xa9 2024 Todos los derechos reservados</p>
+      </div>
+    </footer>
+  </body>
+</html>
