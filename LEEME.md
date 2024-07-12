@@ -10,6 +10,6 @@ https://github.com/spirithrasher/spirithrasher.github.io
 
 Commit = "Comentario agregado linea 17 para el trabajo del compañero Javier"
 
-en la carpeta "imagenes" estan los fork
+En la carpeta "imagenes" estan los fork
 
 Saludos
